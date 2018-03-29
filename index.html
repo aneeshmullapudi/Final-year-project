@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Heart disease risk predictor</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+ 
+        <div class="jumbotron">
+            <h1>Heart disease risk predictor</h1>
+        </div>
+        <div class ="col-lg-6">
+            <form>
+                Age:<input type="text" name="Age"><br></br>
+                Sex:<input type="text" name="Sex"><br></br>
+                Chest pain type:<input type="text" name="cpt"><br></br>
+                resting blood pressure:<input type="text" name="rbp"><br></br>
+                serum cholestoral in mg/dl:<input type="text" name="chol"><br></br>
+                fasting blood sugar > 120 mg/dl:<input type="text" name="fbs"><br></br>
+                resting electrocardiographic results :<input type="text" name="ecg"><br></br>
+                maximum heart rate achieved:<input type="text" name="hr"><br></br> 
+                exercise induced angina:<input type="text" name="eia"><br></br> 
+                oldpeak:<input type="text" name="oldpeak"><br></br>
+            </form>
+        </div>
+        <div class ="col-lg-6">
+            <form>
+                slope of peak ST seg:<input type="text" name="slope"><br></br>
+                no.of major blood vessels:<input type="text" name="nov"><br></br>
+                thal:<input type="text" name="thal"><br></br>
+                risk allele frequency(rs10757278) in Child:<input type="text" name="rafg1C"><br></br>
+                risk allele frequency(rs10757278) in Mother:<input type="text" name="rafg1M"><br></br>
+                risk allele frequency(rs10757278) in Father:<input type="text" name="rafg1F"><br></br>
+                risk allele frequency(rs2383207) in child:<input type="text" name="rafg2C"><br></br>
+                risk allele frequency(rs2383207) in Mother:<input type="text" name="rafg2M"><br></br>
+                risk allele frequency(rs2383207) in Father:<input type="text" name="rafg2F"><br></br>
+            </form>
+        </div>
+        <button type="button" onclick="alert('predicting')">PREDICT</button>
+    </div>
+</body>
+ 
+</html>
